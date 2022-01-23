@@ -1,0 +1,43 @@
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 1520px) {
+  
+    /* CSS */
+    *{
+        width: fit-content;
+        margin-right: auto;
+
+    }
+    .content h1{
+        color:red;
+    }
+    .redba{
+        margin-left: 330px;
+    }
+    .navigation ul {
+        margin-left: 450px;
+    }
+    .content h1{
+        margin-top: -60px;
+    }
+    .content p{
+        text-align: justify;
+    }
+    .tham img{
+        margin-top: -500px;
+        margin-left: 100px;
+        width: 250px;
+        background-color: #0384fc;
+        position: absolute;
+    }
+    .order a{
+        color: blueviolet;
+        margin-top: -290px;
+        margin-left: 160px;
+        position: absolute;
+    }
+  }
