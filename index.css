@@ -5,6 +5,7 @@
 body {
     background-color: black;
 }
+@media (max-width:1080px){
 .logo img{
     margin-left: 100px;
     margin-top: 22px;
@@ -77,4 +78,5 @@ body {
     border: solid white 3px;
     padding: 5px 10px;
     margin-left: 1450px;
+}
 }
